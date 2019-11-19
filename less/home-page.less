@@ -30,10 +30,123 @@ header{
 // Section One
 .sect-one{
    .section();
-    
+
+    @media @mobile {
+        flex-direction:column;
+    }
     .img-one{
     width: 40%;
     padding: 2%;
+
+    @media @mobile{
+        width: 100%;
+    }
+        img{
+            border-radius: 10px;
+            
+        }
+    }    
+    .content{
+        width: 45%;
+        display:flex;
+        flex-direction: column;
+
+        @media @mobile{
+            width: 100%;
+            padding-bottom: 1%;
+        }
+    }
+    h2{
+        border-bottom: 2px solid black;
+        
+    }
+    .button{
+        .btn();
+            a{
+                text-decoration: none;
+                color: black;
+                
+    }
+    
+    &:hover{
+        background: @red;
+        }
+    }
+}
+
+
+
+// Section Two
+.sect-two{
+    .section();
+
+    @media @mobile{
+        flex-direction: column-reverse;
+    }
+    .img-two{
+        width: 40%;
+        padding: 2%;
+        
+        @media @mobile{
+            width: 100%;
+        }
+
+        img{
+            border-radius: 10px;
+            
+        }
+    }
+    .content{
+        width: 45%;
+        display:flex;
+        flex-direction: column;
+
+        @media @mobile{
+            width: 100%;
+            padding: 2%;
+        }
+
+    }
+
+    h2{
+        border-bottom: 2px solid white;
+        
+    }
+    .button{
+        .btn();
+            a{
+                text-decoration: none;
+                color: black;
+                
+                &:hover{
+                    color:white;
+                }
+    }
+    
+    &:hover{
+        background: @black;
+        ;
+        }
+    }
+
+}
+
+
+// section three
+.sect-three{
+    .section();
+    
+    @media @mobile{
+        flex-direction: column;
+    }
+
+    .img-three{
+    width: 40%;
+    padding: 2%;
+
+    @media @mobile{
+        width: 100%;
+    }
 
         img{
             border-radius: 10px;
@@ -44,73 +157,29 @@ header{
         width: 45%;
         display:flex;
         flex-direction: column;
+
+        @media @mobile{
+            width: 100%;
+            padding: 2%;
+        }
+
     }
+    
     h2{
         border-bottom: 2px solid black;
-        
+    
     }
-}
 
-.button{
-    .btn();
-        a{
-            text-decoration: none;
-            color: black;
-            
-}
-
-&:hover{
-    background: @red;
+    .button{
+        .btn();
+            a{
+                text-decoration: none;
+                color: black;
+                
     }
-}
-
-// Section Two
-.sect-two{
-    .section();
-
-    .img-two{
-        width: 40%;
-        padding: 2%;
-        
-        img{
-            border-radius: 10px;
-            
+    
+    &:hover{
+        background: @yellow;
         }
     }
-    content{
-        width: 45%;
-        display:flex;
-        flex-direction: column;
-    }
-
-    h2{
-        border-bottom: 2px solid white;
-        
-    }
-
 }
-
-
-// section three
-.sect-three{
-    .section();
-     
-     .img-three{
-     width: 40%;
-     padding: 2%;
- 
-         img{
-             border-radius: 10px;
-             
-         }
-     }    
-     .content{
-         width: 45%;
-         display:flex;
-         flex-direction: column;
-     }
-     h2{
-         border-bottom: 2px solid black;
-         
-     }
- }
