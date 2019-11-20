@@ -40,15 +40,12 @@
 }
 @media (max-width: 500px) {
   .about-img {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 .icon-group {
   display: flex;
   justify-content: space-around;
-}
-.width {
-  width: 10%;
 }
 * {
   box-sizing: border-box;
@@ -383,18 +380,16 @@ header p {
 }
 @media (max-width: 500px) {
   .team .vick {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 .team .vick img {
   border-radius: 50%;
 }
 @media (max-width: 500px) {
-  .team .vick {
-    width: 10%;
-  }
-  .team .vick p {
-    font-size: 1.5rem;
+  .team .vick p,
+  .team .vick h2 {
+    font-size: 1rem;
   }
 }
 .team .len {
@@ -408,18 +403,16 @@ header p {
 }
 @media (max-width: 500px) {
   .team .len {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 .team .len img {
   border-radius: 50%;
 }
 @media (max-width: 500px) {
-  .team .len {
-    width: 10%;
-  }
-  .team .len p {
-    font-size: 1.5rem;
+  .team .len p,
+  .team .len h2 {
+    font-size: 1rem;
   }
 }
 .team .burl {
@@ -433,18 +426,16 @@ header p {
 }
 @media (max-width: 500px) {
   .team .burl {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 .team .burl img {
   border-radius: 50%;
 }
 @media (max-width: 500px) {
-  .team .burl {
-    width: 10%;
-  }
-  .team .burl p {
-    font-size: 1.5rem;
+  .team .burl p,
+  .team .burl h2 {
+    font-size: 1rem;
   }
 }
 .team .jonah {
@@ -458,18 +449,16 @@ header p {
 }
 @media (max-width: 500px) {
   .team .jonah {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 .team .jonah img {
   border-radius: 50%;
 }
 @media (max-width: 500px) {
-  .team .jonah {
-    width: 10%;
-  }
-  .team .jonah p {
-    font-size: 1.5rem;
+  .team .jonah p,
+  .team .jonah h2 {
+    font-size: 1rem;
   }
 }
 .team .ammon {
@@ -483,18 +472,16 @@ header p {
 }
 @media (max-width: 500px) {
   .team .ammon {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 .team .ammon img {
   border-radius: 50%;
 }
 @media (max-width: 500px) {
-  .team .ammon {
-    width: 10%;
-  }
-  .team .ammon p {
-    font-size: 1.5rem;
+  .team .ammon p,
+  .team .ammon h2 {
+    font-size: 1rem;
   }
 }
 .team .icon {
