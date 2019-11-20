@@ -47,6 +47,9 @@
   display: flex;
   justify-content: space-around;
 }
+.width {
+  width: 10%;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -387,6 +390,9 @@ header p {
   border-radius: 50%;
 }
 @media (max-width: 500px) {
+  .team .vick {
+    width: 10%;
+  }
   .team .vick p {
     font-size: 1.5rem;
   }
@@ -410,7 +416,7 @@ header p {
 }
 @media (max-width: 500px) {
   .team .len {
-    width: 15%;
+    width: 10%;
   }
   .team .len p {
     font-size: 1.5rem;
@@ -435,7 +441,7 @@ header p {
 }
 @media (max-width: 500px) {
   .team .burl {
-    width: 15%;
+    width: 10%;
   }
   .team .burl p {
     font-size: 1.5rem;
@@ -460,7 +466,7 @@ header p {
 }
 @media (max-width: 500px) {
   .team .jonah {
-    width: 15%;
+    width: 10%;
   }
   .team .jonah p {
     font-size: 1.5rem;
@@ -485,7 +491,7 @@ header p {
 }
 @media (max-width: 500px) {
   .team .ammon {
-    width: 15%;
+    width: 10%;
   }
   .team .ammon p {
     font-size: 1.5rem;
