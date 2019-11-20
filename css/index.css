@@ -78,11 +78,8 @@ img {
   height: auto;
 }
 .container {
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
-}
-body {
-  background-color: #A68B05;
 }
 .red {
   background-color: #D90404;
