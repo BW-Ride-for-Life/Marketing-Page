@@ -127,11 +127,6 @@ img {
   padding: 2% 7%;
   border-radius: 7%;
 }
-.nav-bar .links a:hover {
-  background-color: blanchedalmond;
-  color: black;
-  padding: 2% 7%;
-}
 .nav-bar .logo {
   width: 70%;
 }
