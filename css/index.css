@@ -19,6 +19,20 @@
   display: flex;
   flex-direction: column;
 }
+.about-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 15%;
+  font-size: 2rem;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .about-img {
+    font-size: 1.5rem;
+  }
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -298,4 +312,132 @@ header p {
 }
 .sect-three .button:hover {
   background: #F2CB07;
+}
+.team-sect {
+  text-align: center;
+  border-bottom: 2px solid black;
+  font-size: 4rem;
+  width: 50%;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  .team-sect {
+    font-size: 3rem;
+  }
+}
+.team {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 2%;
+}
+.team .vick {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 15%;
+  text-align: center;
+  font-size: 2rem;
+}
+@media (max-width: 500px) {
+  .team .vick {
+    font-size: 1.5rem;
+  }
+}
+.team .vick img {
+  border-radius: 50%;
+}
+@media (max-width: 500px) {
+  .team .vick p {
+    font-size: 1.5rem;
+  }
+}
+.team .len {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 15%;
+  font-size: 2rem;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .team .len {
+    font-size: 1.5rem;
+  }
+}
+.team .len img {
+  border-radius: 50%;
+}
+@media (max-width: 500px) {
+  .team .len p {
+    font-size: 1.5rem;
+  }
+}
+.team .burl {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 15%;
+  font-size: 2rem;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .team .burl {
+    font-size: 1.5rem;
+  }
+}
+.team .burl img {
+  border-radius: 50%;
+}
+@media (max-width: 500px) {
+  .team .burl p {
+    font-size: 1.5rem;
+  }
+}
+.team .jonah {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 15%;
+  font-size: 2rem;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .team .jonah {
+    font-size: 1.5rem;
+  }
+}
+.team .jonah img {
+  border-radius: 50%;
+}
+@media (max-width: 500px) {
+  .team .jonah p {
+    font-size: 1.5rem;
+  }
+}
+.team .ammon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 15%;
+  font-size: 2rem;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .team .ammon {
+    font-size: 1.5rem;
+  }
+}
+.team .ammon img {
+  border-radius: 50%;
+}
+@media (max-width: 500px) {
+  .team .ammon p {
+    font-size: 1.5rem;
+  }
 }
