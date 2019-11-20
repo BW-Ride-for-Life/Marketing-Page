@@ -110,7 +110,8 @@ img {
 .nav-bar .links a {
   text-decoration: none;
   color: white;
-  padding: 2%;
+  padding: 2% 7%;
+  border-radius: 7%;
 }
 .nav-bar .links a:hover {
   background-color: blanchedalmond;
