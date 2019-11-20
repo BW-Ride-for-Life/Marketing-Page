@@ -409,6 +409,9 @@ header p {
   border-radius: 50%;
 }
 @media (max-width: 500px) {
+  .team .len {
+    width: 15%;
+  }
   .team .len p {
     font-size: 1.5rem;
   }
@@ -431,6 +434,9 @@ header p {
   border-radius: 50%;
 }
 @media (max-width: 500px) {
+  .team .burl {
+    width: 15%;
+  }
   .team .burl p {
     font-size: 1.5rem;
   }
@@ -453,6 +459,9 @@ header p {
   border-radius: 50%;
 }
 @media (max-width: 500px) {
+  .team .jonah {
+    width: 15%;
+  }
   .team .jonah p {
     font-size: 1.5rem;
   }
@@ -475,6 +484,9 @@ header p {
   border-radius: 50%;
 }
 @media (max-width: 500px) {
+  .team .ammon {
+    width: 15%;
+  }
   .team .ammon p {
     font-size: 1.5rem;
   }
