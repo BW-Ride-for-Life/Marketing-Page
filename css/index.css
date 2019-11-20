@@ -287,11 +287,8 @@ header p {
   text-decoration: none;
   color: black;
 }
-.sect-two .button a:hover {
-  color: white;
-}
 .sect-two .button:hover {
-  background: #0D0D0D;
+  background: white;
 }
 .sect-three {
   display: flex;
